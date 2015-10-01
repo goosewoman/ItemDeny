@@ -122,9 +122,10 @@ public class ItemDeny extends JavaPlugin
                 if ( groupSection.isConfigurationSection( group ) )
                 {
                     Map<String, Object> items = groupSection.getConfigurationSection( group ).getValues( false );
+                    Map<Material, List<Integer>> itemMap = new HashMap<Material, List<Integer>>();
+
                     for ( String item : items.keySet() )
                     {
-                        Map<Material, List<Integer>> itemMap = new HashMap<Material, List<Integer>>();
                         try
                         {
                             Material material = Material.getMaterial( item.toUpperCase() );
@@ -156,8 +157,8 @@ public class ItemDeny extends JavaPlugin
                             getLogger().warning( "Invalid value at: " + item );
                             ex.printStackTrace();
                         }
-                        permissionGroups.put( group.toLowerCase(), itemMap );
                     }
+                    permissionGroups.put( group.toLowerCase(), itemMap );
                 }
             }
         }
