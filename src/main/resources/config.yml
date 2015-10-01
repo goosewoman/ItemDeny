@@ -1,6 +1,6 @@
 deny-message: "You're not allowed to use this item."
 
-#All the items you don't want people to use unless they have the permissions
+#All the items you don't want people to use unless they have the permissions (itemdeny.item.<itemname>)
 # format ITEM_NAME: damage value. -1 = any value.
 # item names can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 deny-items:
@@ -50,6 +50,8 @@ deny-items:
   LEATHER_LEGGINGS: -1
   LEATHER_BOOTS: -1
   
+#permission groups. Give the user the itemdeny.group.<groupname> permission and it'll allow the user to use the items listed in the group.
+#so for diamond it would be itemdeny.group.diamond
 groups:
   diamond:
     DIAMOND_SWORD: -1
