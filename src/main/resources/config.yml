@@ -1,0 +1,105 @@
+deny-message: "You're not allowed to use this item."
+
+#All the items you don't want people to use unless they have the permissions
+# format ITEM_NAME: damage value. -1 = any value.
+# item names can be found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+deny-items:
+  DIAMOND_SWORD: -1
+  DIAMOND_HOE: -1
+  DIAMOND_AXE: -1
+  DIAMOND_PICKAXE: -1
+  DIAMOND_SPADE: -1
+  DIAMOND_HELMET: -1
+  DIAMOND_CHESTPLATE: -1
+  DIAMOND_LEGGINGS: -1
+  DIAMOND_BOOTS: -1
+  IRON_SWORD: -1
+  IRON_HOE: -1
+  IRON_AXE: -1
+  IRON_PICKAXE: -1
+  IRON_SPADE: -1
+  IRON_HELMET: -1
+  IRON_CHESTPLATE: -1
+  IRON_LEGGINGS: -1
+  IRON_BOOTS: -1
+  GOLD_SWORD: -1
+  GOLD_HOE: -1
+  GOLD_AXE: -1
+  GOLD_PICKAXE: -1
+  GOLD_SPADE: -1
+  GOLD_HELMET: -1
+  GOLD_CHESTPLATE: -1
+  GOLD_LEGGINGS: -1
+  GOLD_BOOTS: -1
+  STONE_SWORD: -1
+  STONE_HOE: -1
+  STONE_AXE: -1
+  STONE_PICKAXE: -1
+  STONE_SPADE: -1
+  CHAIN_HELMET: -1
+  CHAIN_CHESTPLATE: -1
+  CHAIN_LEGGINGS: -1
+  CHAIN_BOOTS: -1
+  WOOD_SWORD: -1
+  WOOD_HOE: -1
+  WOOD_AXE: -1
+  WOOD_PICKAXE: -1
+  WOOD_SPADE: -1
+  LEATHER_HELMET: -1
+  LEATHER_CHESTPLATE: -1
+  LEATHER_LEGGINGS: -1
+  LEATHER_BOOTS: -1
+  
+groups:
+  diamond:
+    DIAMOND_SWORD: -1
+    DIAMOND_HOE: -1
+    DIAMOND_AXE: -1
+    DIAMOND_PICKAXE: -1
+    DIAMOND_SPADE: -1
+    DIAMOND_HELMET: -1
+    DIAMOND_CHESTPLATE: -1
+    DIAMOND_LEGGINGS: -1
+    DIAMOND_BOOTS: -1
+  iron:
+    IRON_SWORD: -1
+    IRON_HOE: -1
+    IRON_AXE: -1
+    IRON_PICKAXE: -1
+    IRON_SPADE: -1
+    IRON_HELMET: -1
+    IRON_CHESTPLATE: -1
+    IRON_LEGGINGS: -1
+    IRON_BOOTS: -1
+  gold:
+    GOLD_SWORD: -1
+    GOLD_HOE: -1
+    GOLD_AXE: -1
+    GOLD_PICKAXE: -1
+    GOLD_SPADE: -1
+    GOLD_HELMET: -1
+    GOLD_CHESTPLATE: -1
+    GOLD_LEGGINGS: -1
+    GOLD_BOOTS: -1
+  stone:
+    STONE_SWORD: -1
+    STONE_HOE: -1
+    STONE_AXE: -1
+    STONE_PICKAXE: -1
+    STONE_SPADE: -1
+  chain:
+    CHAIN_HELMET: -1
+    CHAIN_CHESTPLATE: -1
+    CHAIN_LEGGINGS: -1
+    CHAIN_BOOTS: -1
+  wood:
+    WOOD_SWORD: -1
+    WOOD_HOE: -1
+    WOOD_AXE: -1
+    WOOD_PICKAXE: -1
+    WOOD_SPADE: -1
+  leather:
+    LEATHER_HELMET: -1
+    LEATHER_CHESTPLATE: -1
+    LEATHER_LEGGINGS: -1
+    LEATHER_BOOTS: -1

@@ -1,0 +1,5 @@
+name: ItemDeny
+main: com.radthorne.itemdeny.ItemDeny
+version: 1.0
+description: Permission based item blacklist
+authors: [Kukelekuuk00]
